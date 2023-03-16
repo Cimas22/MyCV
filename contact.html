@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact</title>
+<link rel="stylesheet" type="text/css" href="Style.css"/>
+</head>
+<!--This has to have a contactformulier: voornaam, achternaam, email and bericht. Also a verzendknop that looks different when it is active.  -->
+<header>
+<div>
+<ul>
+  <li><a href= index.html >Home</a></li>
+  <li><a href= mijncv.html >My CV</a></li>
+  <li><a href= contact.html >Contact</a></li>
+  </li>
+</ul>
+</div>
+</header>
+  <body>
+    <form id="contactform"
+     action="https://formspree.io/f/xlevreyg"
+     method="post">
+
+
+     <input type="text" name="name" placeholder="Your first name">
+     <input type="text" name="name" placeholder="Your last name">
+     <input type="email" name="_replyto" placeholder="Your email">
+     <input type="hidden" name="_subject" value="Website contact"/>
+     <textarea name="message" placeholder="Your message">
+     </textarea>
+
+     <input type="text" name="_gotcha" style="display:none"/>
+     <input type="submit" value="Verzend">
+
+    </form>
+  </body>
+  <footer> ®Isabel Martinez 2023 </footer>
+</html>
